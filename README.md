@@ -6,7 +6,7 @@ SOFA is an open-source framework targeting at real-time simulation, with an emph
 
 <!-- blood flow simulation in intracranial aneurysm -->
 <img img align="right" src="https://i.ytimg.com/vi/ulPApnMh5m0/maxresdefault.jpg" width="450">
-<img img align="left" src="https://www.medtech-strasbourg.eu/wp-content/uploads/SOFA_facebook-1.png" width="350">
+<img img align="left" src="https://www.medtech-strasbourg.eu/wp-content/uploads/SOFA_facebook-1.png" width="300">
 
 
 # Applications
