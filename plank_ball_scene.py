@@ -27,4 +27,20 @@ def createScene(rootNode):
   cube.createObject('EulerImplicit', name="odesolver")
   
   # Solving Method
-  cube.CreateObject('CGLinearSolver', name="solver")
+  cube.createObject('CGLinearSolver', name="solver")
+  
+  # Visual Object of Cube
+  visual = cube.createChild("Cube Visual")
+  visual.createObject('OglModel', name="Visual",
+                      fileMesh="mesh/smCube27.ob", 
+                      colour=[0.1,0.1,1.0],
+                      scale=25.0)
+  visual.createObject('RigidMapping')
+  
+  
+  
+  
+  
+  
+  
+  
