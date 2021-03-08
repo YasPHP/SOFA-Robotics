@@ -1,11 +1,10 @@
 # [SOFA](https://www.sofa-framework.org/) Robotics
 SOFA is an open-source framework targeting at real-time simulation, with an emphasis on medical simulation.
 
-![soft robot control](https://www.sofa-framework.org/wp-content/uploads/2018/04/Robots-480x480.png)
-![blood flow simulation in intracranial aneurysm](https://i.ytimg.com/vi/ulPApnMh5m0/maxresdefault.jpg)
-
+# soft robot control
 <img img align="left" src="https://www.sofa-framework.org/wp-content/uploads/2018/04/Robots-480x480.png" width="300">
-<img img align="left" src="https://i.ytimg.com/vi/ulPApnMh5m0/maxresdefault.jpg" width="300">
+# blood flow simulation in intracranial aneurysm
+<img img align="left" src="https://i.ytimg.com/vi/ulPApnMh5m0/maxresdefault.jpg" width="400">
 
 
 # Applications
