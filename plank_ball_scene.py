@@ -26,10 +26,10 @@ def createScene(rootNode):
                     mass=[totalMass, volume, inertiaMatrix[:]])
 
   # Time Integration Scheme
-  cube.createObject('EulerImplicit', name="odesolver")
+  cube.createObject('EulerImplicit', name="Odesolver")
   
   # Solving Method
-  cube.createObject('CGLinearSolver', name="solver")
+  cube.createObject('CGLinearSolver', name="Solver")
   
   # Visual Object of Cube
   visual = cube.createChild("Cube Visual")
@@ -45,8 +45,19 @@ def createScene(rootNode):
   
   collision = cube.createChild("Cube Collision Model")
   
+  collision.createObject('MeshObjLoader', name="Loader",
+                        filename="mesh/smCube27.obj",
+                        triangulate="true", scale=20.0)
   
+  collision.createObject('Mesh', src="@loader")
   
+  collision.createObject('MechanicalObject')
+  
+  collision.createObject('Triangle')
+  collision.createObject('Line')
+  collision.createObject('Point')
+  
+  collision.createObject('RigidMapping')
   
   
   
