@@ -24,7 +24,11 @@ def createScene(rootNode):
         uniformScale=0.8,
         isAStaticObject=True)
   
-  
-  
+  for i in range(7):
+    Cube(rootNode,
+         name="Cube"+str(-210+c*70),
+         translation=[-210+c*70,0.0,0.0],
+         color=[c/10.0,c*0.7/10.0,0.9],
+         uniformScale=20.0)
   
   return rootNode
