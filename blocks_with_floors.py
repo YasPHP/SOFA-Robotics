@@ -12,7 +12,17 @@ def createScene(rootNode):
 
   ShowGrid(rootNode)
   
+  Floor(rootNode,
+       translation=[0.0,-180.0,0.0],
+       uniformScale=5.0,
+       isAStaticObject=True)
   
+  Floor(rootNode,
+        name="Floor Obstacle",
+        translation=[0.0,-90.0,0.0],
+        color=[0.0,1.0,0.0],
+        uniformScale=0.8,
+        isAStaticObject=True)
   
   
   
