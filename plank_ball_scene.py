@@ -24,4 +24,7 @@ def createScene(rootNode):
                     mass=[totalMass, volume, inertiaMatrix[:]])
 
   # Time Integration Scheme
-  cube.createObject()
+  cube.createObject('EulerImplicit', name="odesolver")
+  
+  # Solving Method
+  cube.CreateObject('CGLinearSolver', name="solver")
