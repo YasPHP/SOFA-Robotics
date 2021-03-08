@@ -3,7 +3,7 @@ from stlib.scene import MainHeader
 from stlib.solver import DefaultSolver
 from stlib.physics.rigid import Floor
 
-
+# NOTE: double quotations for name param and single for function param
 def createScene(rootNode):
   
   MainHeader(rootNode, gravity=[0.0, -981.0, 0.0])
@@ -22,3 +22,6 @@ def createScene(rootNode):
   
   cube.createObject('UniformMass', name="Mass", 
                     mass=[totalMass, volume, inertiaMatrix[:]])
+
+  # Time Integration Scheme
+  cube.createObject()
