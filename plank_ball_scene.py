@@ -60,4 +60,9 @@ def createScene(rootNode):
   collision.createObject('RigidMapping')
   
   
+  # Floor in the Scene
   
+  floor = Floor(rootNode, name="Floor",
+                translation=[0.0, -3200.0, 0.0],
+                uniformScale=7.0,
+                isAStaticObject=True)
