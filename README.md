@@ -1,4 +1,4 @@
-# SOFA Robotics
+# [SOFA](https://www.sofa-framework.org/) Robotics
 SOFA is an open-source framework targeting at real-time simulation, with an emphasis on medical simulation.
 
 ![soft robot control](https://www.sofa-framework.org/wp-content/uploads/2018/04/Robots-480x480.png)
