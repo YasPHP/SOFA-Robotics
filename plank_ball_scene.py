@@ -70,3 +70,5 @@ def createScene(rootNode):
                 translation=[0.0, -3200.0, 0.0],
                 uniformScale=7.0,
                 isAStaticObject=True)
+  
+  return rootNode
