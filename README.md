@@ -5,7 +5,7 @@ SOFA is an open-source framework targeting at real-time simulation, with an emph
 <img img align="left" src="https://www.sofa-framework.org/wp-content/uploads/2018/04/Robots-480x480.png" width="400">
 
 <!-- blood flow simulation in intracranial aneurysm -->
-<img img align="right" src="https://i.ytimg.com/vi/ulPApnMh5m0/maxresdefault.jpg" width="700">
+<img img align="right" src="https://i.ytimg.com/vi/ulPApnMh5m0/maxresdefault.jpg" width="600">
 
 
 # Applications
