@@ -5,7 +5,9 @@ from stlib.physics.rigid import Floor
 
 # NOTE: double quotations for name param and single for function param
 def createScene(rootNode):
-  
+  """
+  Following the Defrost team of the INRIA Lille Nord Europe's tutorial.
+  """
   MainHeader(rootNode, gravity=[0.0, -981.0, 0.0])
   
   cube = rootNode.createChild("Cube")
@@ -31,13 +33,17 @@ def createScene(rootNode):
   
   # Visual Object of Cube
   visual = cube.createChild("Cube Visual")
+  
   visual.createObject('OglModel', name="Visual",
                       fileMesh="mesh/smCube27.ob", 
                       colour=[0.1,0.1,1.0],
                       scale=25.0)
+  
   visual.createObject('RigidMapping')
   
+  # Collision Model for the Cube
   
+  collision = cube.createChild("Cube Collision Model")
   
   
   
