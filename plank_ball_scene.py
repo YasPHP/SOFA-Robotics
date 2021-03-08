@@ -10,6 +10,10 @@ def createScene(rootNode):
   """
   MainHeader(rootNode, gravity=[0.0, -981.0, 0.0])
   
+  # Collision Handling Built-in Function
+  ContactHeader(rootNode, alarmDistance=10,
+               contactDistance=5)
+  
   cube = rootNode.createChild("Cube")
   
   # Mechanical Model
