@@ -24,6 +24,7 @@ def createScene(rootNode):
         uniformScale=0.8,
         isAStaticObject=True)
   
+  # creates 7 cubes
   for i in range(7):
     Cube(rootNode,
          name="Cube"+str(-210+c*70),
