@@ -5,18 +5,24 @@ from stlib.physics import Floor
 from stlib.physics import Cube
 
 def createScene(rootNode):
+
+  # main header (rootNode + gravity)
   MainHeader(rootNode, gravity=[0.0,-981.0,0.0])
   
+  # contact header
   ContactHeader(rootNode, alarmDistance=8,
                contactDistance=5)
 
+  # shows the grid outline
   ShowGrid(rootNode)
   
+  # base floor
   Floor(rootNode,
        translation=[0.0,-180.0,0.0],
        uniformScale=5.0,
        isAStaticObject=True)
   
+  # obstacle floor
   Floor(rootNode,
         name="Floor Obstacle",
         translation=[0.0,-90.0,0.0],
