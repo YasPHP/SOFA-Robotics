@@ -5,7 +5,7 @@ from stlib.physics import Floor
 from stlib.physics import Cube
 
 def createScene(rootNode):
-  MainHeader(rootNode, grvaity=[0.0,-981.0,0.0])
+  MainHeader(rootNode, gravity=[0.0,-981.0,0.0])
   
   ContactHeader(rootNode, alarmDistance=8,
                contactDistance=5)
