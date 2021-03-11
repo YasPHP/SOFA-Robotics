@@ -40,11 +40,13 @@ def createScene(rootNode):
   # Visual Object of Cube
   visual = cube.createChild("Cube Visual")
   
+  # Visual Ogl Model
   visual.createObject('OglModel', name="Visual",
                       fileMesh="mesh/smCube27.ob", 
                       colour=[0.1,0.1,1.0],
                       scale=25.0)
   
+  # Rigid Mapping Object
   visual.createObject('RigidMapping')
   
   # Collision Model for the Cube
