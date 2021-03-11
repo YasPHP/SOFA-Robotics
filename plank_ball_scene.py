@@ -22,10 +22,12 @@ def createScene(rootNode):
   volume = 5.0
   inertiaMatrix = [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
   
+  # DOF Mechanical Object
   cube.createObject('MechanicalObject', name="DOF", 
                     template="Rigid", translation=[0.0, 0.0, 0.0], 
                     rotation = [0.0, 0.0, 0.0])
   
+  # Uniform Mass Object
   cube.createObject('UniformMass', name="Mass", 
                     mass=[totalMass, volume, inertiaMatrix[:]])
 
