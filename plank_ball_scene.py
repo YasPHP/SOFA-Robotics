@@ -53,6 +53,7 @@ def createScene(rootNode):
   
   collision = cube.createChild("Cube Collision Model")
   
+  # Creating Collision Objects
   collision.createObject('MeshObjLoader', name="Loader",
                         filename="mesh/smCube27.obj",
                         triangulate="true", scale=20.0)
