@@ -5,6 +5,7 @@ from stlib.physics import Floor
 from stlib.physics import Cube
 from stlib.solver import DefaultSolver
 
+# create a scene with a root node
 def createScene(rootNode):
 
   # main header (rootNode + gravity)
@@ -38,5 +39,22 @@ def createScene(rootNode):
          translation=[],
          color=[],
          uniformScale=0.0)
+    
+    
+   # creating children (ie. a cube) for the root node
+  
+    cube = rootNode.createChild("Cube")
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   return rootNode
