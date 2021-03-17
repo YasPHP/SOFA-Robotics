@@ -40,7 +40,8 @@ def createScene(rootNode):
          color=[],
          uniformScale=0.0)
     
-    
+#---------------------------------------------------------------------------------#    
+
   # creating children (ie. a cube) for the root node
   
   cube = rootNode.createChild("Cube")
@@ -83,20 +84,16 @@ def createScene(rootNode):
   collision = cube.createChild("Cube Collision Model")
   
   # Creating Collision Objects
-  collision.createObject('MeshObjLoader', name="Loader",
-                        filename="mesh/smCube27.obj",
-                        triangulate="true", scale=20.0)
+  collision.createObject('MeshObjLoader', name="",
+                        filename="mesh/name.obj",
+                        triangulate="true", scale=0.0)
   
+  # example collision objects to add
   collision.createObject('Mesh', src="@loader")
-  
   collision.createObject('MechanicalObject')
-  
   collision.createObject('Triangle')
   collision.createObject('Line')
   collision.createObject('Point')
-  
   collision.createObject('RigidMapping')
-    
-    
-  
+
   return rootNode
