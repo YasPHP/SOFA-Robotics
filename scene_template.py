@@ -88,7 +88,7 @@ def createScene(rootNode):
                         filename="mesh/name.obj",
                         triangulate="true", scale=0.0)
   
-  # example collision objects to add
+  # example collision objects to add 
   collision.createObject('Mesh', src="@loader")
   collision.createObject('MechanicalObject')
   collision.createObject('Triangle')
