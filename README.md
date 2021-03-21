@@ -13,4 +13,4 @@ SOFA is an open-source framework targeted at real-time simulation, with an empha
 - Solid mechanics with the simulation of the brain, the ear, the bones, the heart, and liver.
 - Fluid dynamics with the simulation of fat filling and blood flow in aneurysms.
 - Thermodynamics with thermo-ablation of tumors.
-- and many other topics as image processing, animation or biological applications.
+- and many other topics as image processing, animation or biological applications. 
