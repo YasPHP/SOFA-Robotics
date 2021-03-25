@@ -1,5 +1,5 @@
 # imports (SmallTalk LIBrary)
-from stlib.scene import MainHeader, ContactHeader
+from stlib.scene import MainHeader, ContactHeader   # basic scene headers
 from stlib.visuals import ShowGrid
 from stlib.physics import Floor
 from stlib.physics import Cube
