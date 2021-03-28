@@ -58,6 +58,7 @@ def createScene(rootNode):
                         filename="mesh/smCube27.obj",
                         triangulate="true", scale=20.0)
   
+  # Collision Objects: Mesh, Mechanical Object, Triangle, Line, Point, Rigid Mapping
   collision.createObject('Mesh', src="@loader")
   
   collision.createObject('MechanicalObject')
